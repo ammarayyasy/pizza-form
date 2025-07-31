@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Pizza Online</title>
+
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="pizza.jpg" type="image/x-icon">
+
+    <!-- css -->
+    <link rel="stylesheet" href="gaya.css">
+
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Form Pemesanan Pizza</h1>
+            <p><i>Pizza Lezat, cepat sampai rumah anda~ 🍕</i></p>
+            <nav>
+                <a href="#menu">Lihat Menu</a> |
+                <a href="#order">Pesan Sekarang</a> |
+                <a href="#contact">Kontak Kami</a>
+            </nav>
+            <hr>
+        </header>
+
+        <!-- Section: Promo -->
+        <section>
+            <h2>Promo</h2>
+            <img src="/images/promo.jpg" alt="Promo Pizza" width="300">
+            <p><mark>Diskon  30% </mark> untuk semua pizza ukuran besar!!</p>
+            <ol>
+                <li>Rotinya empuk</li>
+                <li>Harga terjangkau</li>
+                <li>Delivery cepat</li>
+            </ol>
+        </section>
+
+        <!-- Section: Menu -->
+        <section id="menu">
+            <h2>Menu</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Ukuran</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pizza Margherita</td>
+                        <td>Medium</td>
+                        <td>Rp 45.000</td>
+                    </tr>
+                    <tr>
+                        <td>Pizza Macaroni</td>
+                        <td>Large</td>
+                        <td>Rp 120.000</td>
+                    </tr>
+                    <tr>
+                        <td>Pizza Keju</td>
+                        <td>Extra Large</td>
+                        <td>Rp 230.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Form pemesanan -->
+        <section id="order">
+            <h2>Formulir Pemesanan</h2>
+            <form action="">
+                <label for="nama">Nama Anda:</label>
+                <input id="nama" type="text" placeholder="Masukkan nama anda">
+                <br>
+                <br>
+
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="Masukkan email anda">
+                <br>
+                <br>
+
+                <label for="ukuran">Ukuran Pizza:</label>
+                <select name="ukuran" id="ukuran">
+                    <option value="">Silahkan pilih ukuran</option>
+                    <option value="large">Large</option>
+                    <option value="medium">Medium</option>
+                    <option value="small">Small</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="topping">Pilih Topping:</label>
+                <input type="checkbox" name="topping" id="topping" value="keju"> Keju
+                <input type="checkbox" name="topping" id="topping" value="jamur"> Jamur
+                <input type="checkbox" name="topping" id="topping" value="salsa"> Salsa
+                <input type="checkbox" name="topping" id="topping" value="sosis"> Sosis
+                <br>
+                <br>
+
+                <label for="jenis">Jenis Pizza:</label>
+                <input type="radio" name="jenis" value="margherita"> Pizza Margherita
+                <input type="radio" name="jenis" value="macaroni"> Pizza Macaroni
+                <input type="radio" name="jenis" value="bbq"> BBQ Chicken
+                <br>
+                <br>
+
+                <label for="catatan">Catatan:</label>
+                <br>
+                <textarea name="catatan" id="catatan" rows="4" cols="50" placeholder="Gak pake sambel"></textarea>
+                <br>
+                <br>
+
+                <button type="submit">Pesan Sekarang!</button>
+            </form>
+        </section>
+
+        <!-- Section: Kontak -->
+        <section id="contact">
+            <h2>Kontak Kami</h2>
+            <p>📍 Jl. Raya Mataram, Mataram, Bali</p>
+            <p>📞 <b>081399808859</b></p>
+            <p>📧 <a href="mailto:ammarayyasy@idn.sch.id">ammarayyasy@idn.sch.id</a></p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <hr>
+            <p><small>&copy; 2025 Pizza Mantab. All Rights Reserved</small></p>
+        </footer>
+    </div>
+</body>
+</html>
